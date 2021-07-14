@@ -13,7 +13,7 @@ metadata:
 spec:
   hosts:
     - independent.australiaeast.azurecontainer.io
-  location: MESH_EXTERNAL
+  location: MESH_EXTERNAL #outside cluster outside mesh ; MESH_INTERNAL  = inside cluster outside mesh
   ports:
     - number: 8080
       name: http
